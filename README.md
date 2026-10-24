@@ -6,7 +6,8 @@ An end-to-end Machine Learning pipeline engineered to detect fraudulent credit c
 
 The dataset used for training and evaluating the real-time fraud detection models was obtained from **Kaggle**. 
 
-* **Source:** [Name of the Kaggle Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+* **Source:** [Credit Card Fraud Detection
+](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 * **Format:** `.csv`
 * **Description:** The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 
