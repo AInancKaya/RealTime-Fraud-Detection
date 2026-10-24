@@ -33,7 +33,7 @@ The optimal model was serialized (`.pkl`) and deployed into a real-time interact
 
 ### Running the Application Locally
 1. Clone the repository:
-   git clone [https://github.com/yourusername/RealTime-Fraud-Detection.git](https://github.com/AInancKaya/RealTime-Fraud-Detection.git)
+   git clone [https://github.com/AInancKaya/RealTime-Fraud-Detection.git](https://github.com/AInancKaya/RealTime-Fraud-Detection.git)
    cd RealTime-Fraud-Detection
 2. Install the required dependencies:
    pip install -r requiremnts.txt
