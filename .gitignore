@@ -1,0 +1,13 @@
+# Dataset
+data/creditcard.csv
+
+# Python & Virtual Environments
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+.DS_Store
+
+# PyCaret / Models (Eğer GitHub LFS kullanmıyorsan 100MB üstü modeller hata verir)
+# *.pkl
