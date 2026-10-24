@@ -49,7 +49,8 @@ The optimal model was serialized (`.pkl`) and deployed into a real-time interact
 2. Install the required dependencies:
    pip install -r requiremnts.txt
 3. Launch the Streamlit dashboard:
-   streamlit run app.py
+   python -m streamlit run app.py
+
 🛠️ Tech Stack
 Language: Python
 Data Processing & EDA: Pandas, NumPy, Sweetviz, Matplotlib, Seaborn
