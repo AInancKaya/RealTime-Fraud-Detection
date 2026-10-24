@@ -2,6 +2,16 @@
 
 An end-to-end Machine Learning pipeline engineered to detect fraudulent credit card transactions within highly imbalanced financial datasets. This project covers the entire ML lifecycle: automated exploratory data analysis, robust model selection using PyCaret, model interpretability via SHAP, and a real-time Streamlit dashboard for business operations.
 
+## 📊 Dataset
+
+The dataset used for training and evaluating the real-time fraud detection models was obtained from **Kaggle**. 
+
+* **Source:** [Name of the Kaggle Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+* **Format:** `.csv`
+* **Description:** The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
+
+**Note:** Due to its size, the original `.csv` file is not included in this repository. To run the project locally, please download the dataset from the Kaggle link above and place it in the `data/` directory.
+
 ## 📊 1. Exploratory Data Analysis (EDA)
 Understanding the distribution of PCA-transformed features (V1-V28) and handling extreme class imbalance (fraud accounts for <0.2% of transactions) was the first critical step. 
 
@@ -33,7 +43,7 @@ The optimal model was serialized (`.pkl`) and deployed into a real-time interact
 
 ### Running the Application Locally
 1. Clone the repository:
-   git clone [https://github.com/yourusername/RealTime-Fraud-Detection.git](https://github.com/AInancKaya/RealTime-Fraud-Detection.git)
+   git clone [https://github.com/AInancKaya/RealTime-Fraud-Detection.git](https://github.com/AInancKaya/RealTime-Fraud-Detection.git)
    cd RealTime-Fraud-Detection
 2. Install the required dependencies:
    pip install -r requiremnts.txt
